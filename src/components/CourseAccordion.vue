@@ -21,7 +21,7 @@ interface Props {
     }
 }
 
-const props = defineProps<Props>();
+defineProps<Props>();
 const isExpanded = ref(true);
 
 const toggleExpand = () => {
