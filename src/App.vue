@@ -3,6 +3,7 @@ import InfoBanner from './components/InfoBanner.vue';
 import Navbar from './components/Navbar.vue';
 import Hero from './components/Hero.vue';
 import Courses from './components/Courses.vue';
+import WhySection from './components/WhySection.vue';
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import Courses from './components/Courses.vue';
           <div class="bg-white relative">
             <Hero />
             <Courses />
+            <WhySection />
           </div>
         </div>
       </main>
