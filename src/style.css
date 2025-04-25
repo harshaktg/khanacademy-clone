@@ -18,6 +18,33 @@
   font-display: swap;
 }
 
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://cdn.kastatic.org/genwebpack/prod/en/fonts/d45d409d2fa42169-LatoLatin-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://cdn.kastatic.org/genwebpack/prod/en/fonts/1cf13853095a62e2-LatoLatin-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://cdn.kastatic.org/genwebpack/prod/en/fonts/71fc01820777da89-LatoLatin-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
