@@ -3,6 +3,10 @@ import { computed } from 'vue';
 import CourseAccordion from './CourseAccordion.vue';
 import { courses, type Course } from '../constants/courses';
 
+defineOptions({
+    name: 'Courses'
+});
+
 // Group courses by section
 const coursesBySection = computed(() => {
     return Object.entries(
