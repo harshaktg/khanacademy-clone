@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import InfoBanner from './components/InfoBanner.vue';
 import Navbar from './components/Navbar.vue';
+import Hero from './components/Hero.vue';
 </script>
 
 <template>
@@ -8,6 +9,13 @@ import Navbar from './components/Navbar.vue';
     <div class="flex flex-col min-h-full">
       <InfoBanner />
       <Navbar />
+      <main id="main-content" class="min-h-screen flex-none">
+        <div class="flex flex-col relative items-stretch overflow-x-hidden align-baseline">
+          <div class="bg-white relative">
+            <Hero />
+          </div>
+        </div>
+      </main>
     </div>
   </div>
 </template>

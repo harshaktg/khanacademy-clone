@@ -8,6 +8,7 @@ export default {
         extend: {
             fontFamily: {
                 'sans': ['Lato', 'Noto Sans', 'Helvetica', 'Corbel', 'sans-serif'],
+                'serif': ['Source Serif Pro', 'Noto Serif', 'serif'],
             },
             colors: {
                 primary: {

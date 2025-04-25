@@ -35,10 +35,10 @@ import Logo from '../ui/Logo.vue';
                 <div class="pr-0 md:pr-5 gap-x-4 lg:gap-x-8 flex h-full flex-grow basis-0 justify-end items-center">
                     <a data-testid="header-donate-link" target="_blank" rel="noopener noreferrer"
                         href="https://india.khanacademy.org/donate"
-                        class="hidden md:flex text-base font-bold items-center text-primary h-full whitespace-nowrap">Donate<span
+                        class="hidden md:flex text-base font-bold items-center text-primary h-full whitespace-nowrap hover:underline">Donate<span
                             data-testid="external-icon" class="donate-logo icon"></span></a>
                     <a id="login-or-signup"
-                        class="hidden md:flex text-base font-bold items-center text-primary h-full whitespace-nowrap"
+                        class="hidden md:flex text-base font-bold items-center text-primary h-full whitespace-nowrap hover:underline"
                         href="/login">Log in</a>
                     <a role="button" rel="nofollow"
                         class="hidden md:inline-flex items-center h-10 px-4 rounded relative text-white bg-primary signup-button"
@@ -89,6 +89,7 @@ import Logo from '../ui/Logo.vue';
 }
 
 .signup-button {
+    @apply hover:outline-offset-2 hover:outline hover:outline-2 hover:outline-primary;
     padding-inline: 16px;
 }
 

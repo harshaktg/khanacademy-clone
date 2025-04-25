@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('https://cdn.kastatic.org/genwebpack/prod/en/fonts/03ac24f73354c182-SourceSerifPro-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('https://cdn.kastatic.org/genwebpack/prod/en/fonts/b430c69579ae2887-SourceSerifPro-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -26,11 +42,8 @@ html {
 }
 
 body {
-  @apply h-full m-0;
+  @apply h-full m-0 font-sans leading-[1.4];
   color: #21242c;
-  font-family: Lato, Noto Sans, Helvetica, Corbel, sans-serif;
-  font-size: 1.4rem;
-  line-height: 1.4;
 }
 
 #app {
