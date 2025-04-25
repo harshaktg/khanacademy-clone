@@ -2,6 +2,7 @@
 import InfoBanner from './components/InfoBanner.vue';
 import Navbar from './components/Navbar.vue';
 import Hero from './components/Hero.vue';
+import Courses from './components/Courses.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Hero from './components/Hero.vue';
         <div class="flex flex-col relative items-stretch overflow-x-hidden align-baseline">
           <div class="bg-white relative">
             <Hero />
+            <Courses />
           </div>
         </div>
       </main>
