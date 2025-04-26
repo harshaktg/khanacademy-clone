@@ -5,7 +5,7 @@
     <div class="flex flex-col relative items-stretch mb-20 w-full">
         <div
             class="px-5 lg:px-16 py-0 flex flex-col items-center relative w-full max-w-[1152px] mx-auto mt-[122px] mb-0">
-            <h2 data-scroll-id="why-ka-works" class="mb-2 md:mb-[71px] md:text-[44px] lg:leading-[48px] block font-serif text-[30px] font-semibold leading-[35px]
+            <h2 data-scroll-id="why-ka-works" class="mb-2 md:mb-[71px] md:text-[44px] lg:mb-0 lg:leading-[48px] block font-serif text-[30px] font-semibold leading-[35px]
             -tracking-[0.1px] -mt-10 mx-auto pt-10 px-0 pb-20 text-center max-w-[800px]">Why Khan
                 Academy works</h2>
             <div
@@ -38,7 +38,7 @@
                         class="w-auto md:w-[504px] md:flex-row md:mx-0 flex flex-col relative items-stretch text-left lg:flex-col lg:w-auto">
                         <div
                             class="mb-3 flex-shrink flex flex-col items-center self-center overflow-visible h-[104px] w-[106px] mt-[18px] md:mb-0 mx-0 md:mr-[42px] md:mt-[34px] md:self-start lg:mt-[18px] lg:mx-0 lg:mb-[6px] lg:self-center lg:text-center lg:content-center">
-                            <img class="_14srqcp" src="https://cdn.kastatic.org/images/lohp/trusted_content_icon.png"
+                            <img class="w-[120%]" src="https://cdn.kastatic.org/images/lohp/trusted_content_icon.png"
                                 alt="">
                         </div>
                         <div

@@ -7,7 +7,7 @@ import Logo from '../ui/Logo.vue';
     class="bg-white h-[62px] relative left-0 right-0 top-0 border-t border-b border-t-[#21242c29] border-b-[#21242c29]">
     <nav class="max-w-[1200px] mx-auto w-full h-full">
       <div class="flex h-full items-center text-base">
-        <div class="hidden md:flex lg:gap-x-0 h-full items-center gap-x-4 justify-start flex-grow basis-0 pl-5">
+        <div class="hidden md:flex lg:gap-x-8 h-full items-center gap-x-4 justify-start flex-grow basis-0 pl-5">
           <div class="inline-block h-full whitespace-nowrap">
             <button aria-expanded="false" data-testid="learn-menu-dropdown" type="button" aria-disabled="false"
               class="flex whitespace-nowrap p-0 h-full font-bold items-center bg-transparent border-none text-base text-primary">
@@ -36,7 +36,7 @@ import Logo from '../ui/Logo.vue';
         <div class="pr-0 md:pr-5 gap-x-4 lg:gap-x-8 flex h-full flex-grow basis-0 justify-end items-center">
           <a data-testid="header-donate-link" target="_blank" rel="noopener noreferrer"
             href="https://india.khanacademy.org/donate"
-            class="hidden md:flex text-base font-bold items-center text-primary h-full whitespace-nowrap hover:underline">Donate<span
+            class="hidden md:flex text-base font-bold items-center text-primary h-full whitespace-nowrap hover:underline md:-mr-1.5">Donate<span
               data-testid="external-icon" class="donate-logo icon" /></a>
           <a id="login-or-signup"
             class="hidden md:flex text-base font-bold items-center text-primary h-full whitespace-nowrap hover:underline"

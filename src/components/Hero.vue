@@ -9,7 +9,7 @@
         srcset="https://cdn.kastatic.org/images/lohp/hero_student_collage_IN_2x.png 2x, https://cdn.kastatic.org/images/lohp/hero_student_collage_IN_1x.png 1x"
         alt="" data-testid="hero-image" />
     </div>
-    <div class="absolute w-[calc(100%-40px)] bottom-0 pb-[5px] md:static md:w-full md:self-center">
+    <div class="absolute w-[calc(100%-40px)] lg:mt-[5px] bottom-0 md:static md:w-full md:self-center">
       <h1
         class="font-serif text-2xl font-semibold leading-8 mb-[22px] inline bg-white relative bottom-3 md:block md:static md:text-[32px] md:leading-[36px] lg:text-[34px] lg:leading-[36px]">
         For every
