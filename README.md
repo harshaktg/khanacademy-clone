@@ -1,93 +1,117 @@
-# Vite + Vue 3 + TypeScript Starter
+# 📚 Khan Academy Clone — Hackathon Submission
 
-A modern and minimal starter template for building Vue 3 applications with TypeScript. This template comes pre-configured with Vite for lightning-fast development, TypeScript for type safety, ESLint for code quality, and Vue SFC (Single File Component) support.
+A modern, responsive recreation of the **Khan Academy landing page**, built using **Vue 3**, **TypeScript**, and **Tailwind CSS**. This project faithfully replicates the original design while introducing engaging gamification features to enhance user interaction and learning motivation.
 
-## Features
+---
 
-- ⚡️ [Vite](https://vitejs.dev/) - Lightning fast frontend tooling
-- 🖖 [Vue 3](https://vuejs.org/) - The Progressive JavaScript Framework
-- 📝 [TypeScript](https://www.typescriptlang.org/) - JavaScript with syntax for types
-- 🔍 [ESLint](https://eslint.org/) - Code linting for better quality
-- 📑 [Vue SFC](https://vuejs.org/guide/scaling-up/sfc.html) - Single File Components support
-- 🔧 Modern configuration out of the box
+## 🚀 Features
 
-## Prerequisites
+### ✅ Cloned from Khan Academy
+- Pixel-perfect replica of the **Khan Academy desktop landing page**
+- Recreated sections: Hero, Subject Categories, Testimonials, Footer
 
-- Node.js (version 16.0 or higher)
-- npm or yarn or pnpm
+---
 
-## Getting Started
+### ✨ Enhancements
+- **Dark Mode**  
+  Smart system-detected dark mode with manual override and persistent preference using localStorage
 
-1. Clone this repository:
+- **Learning Streak & XP Tracker**  
+  - Track daily visits and course interactions to build a learning streak
+  - Earn XP through interactions like page visits, scrolling, and clicking courses
+  - Visual XP progress bar to monitor achievement
+  - Persistent streak and XP storage using localStorage
+  - **Social Sharing:** Share your learning streak and XP progress via major platforms (Twitter, LinkedIn, Facebook, WhatsApp)
+
+- **Polished UX Improvements**  
+  - Smooth scroll behavior
+  - Subtle hover animations and responsive layouts
+  - Focused accessibility improvements
+
+---
+
+## 🧠 Tech Stack
+
+| Tech | Description |
+|------|-------------|
+| [Vue 3](https://vuejs.org/) | Composition API with `<script setup>` |
+| [TypeScript](https://www.typescriptlang.org/) | Strong typing throughout the app |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling for rapid, responsive design |
+| [Vite](https://vitejs.dev/) | Lightning-fast bundler and development server |
+
+---
+
+## 🚧 Challenges Faced
+
+- ⚙️ **SVG Dynamic Interaction:**  
+  Khan Academy's original site includes dynamic, interactive SVG elements which could not be fully replicated, as monitoring and controlling embedded SVG animations dynamically without asset-level access proved highly complex.  
+  As a result, static SVG visuals were maintained while focusing on adding custom interactive features like XP and streaks to enhance the user experience.
+
+---
+
+## 📦 Getting Started
+
+### Clone the repo
 ```bash
-git clone <your-repo-url>
-cd vite-vue-starter
+git clone https://github.com/your-username/khan-academy-clone.git
+cd khan-academy-clone
 ```
 
-2. Install dependencies:
+## Install dependencies
+
 ```bash
-npm install
-# or
-yarn
-# or
 pnpm install
 ```
 
-3. Start the development server:
+## Run in development
+
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
 ```
 
-4. Open your browser and visit `http://localhost:5173`
+## Build for production
 
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run type-check` - Run TypeScript type checking
-
-## Project Structure
-
-```
-vite-vue-starter/
-├── public/              # Static assets
-├── src/                 # Source files
-│   ├── assets/         # Project assets
-│   ├── components/     # Vue components
-│   ├── App.vue         # Root component
-│   ├── main.ts         # Application entry point
-│   └── vite-env.d.ts   # Vite environment declarations
-├── index.html          # Entry HTML file
-├── package.json        # Project metadata and dependencies
-├── tsconfig.json       # TypeScript configuration
-├── vite.config.ts      # Vite configuration
-└── .eslintrc.js        # ESLint configuration
+```bash
+pnpm build
 ```
 
-## Customization
+---
 
-### ESLint Configuration
+## 📱 UX Highlights
 
-The project comes with a default ESLint configuration. You can modify the rules in `.eslintrc.js` to match your coding style preferences.
+- **Fully responsive mobile-first design**
+- **Smooth dark mode toggle with system preference detection**
+- **Learning streaks and XP gamification for engagement**
+- **XP Sharing functionality to social platforms**
+- **Clean, animated interactions and feedback on actions**
 
-### TypeScript Configuration
+---
 
-TypeScript settings can be adjusted in `tsconfig.json`. The default configuration provides a good balance of type safety and development experience.
+## 📸 Screenshots
 
-### Vite Configuration
+Add screenshots showcasing:
 
-The Vite configuration is located in `vite.config.ts`. You can customize build options, add plugins, and modify the development server settings here.
+- Dark mode view
+- XP Tracker and Sharing modal
+- Streaks and XP visual progress
+- Responsive mobile layout
 
-## Contributing
+---
 
-Feel free to submit issues and enhancement requests!
+## 🏁 Final Notes
 
-## License
+This clone is built as a Pixel Plus Hackathon submission to demonstrate frontend precision, creative UX enhancements, and gamified interactivity — while remaining faithful to the core spirit of the Khan Academy platform.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+
+## 📝 License
+
+MIT
+
+---
+
+## 🔗 Links
+
+[**Live Demo**](https://khanacademy-clone-theta.vercel.app/)
+
+Built with ❤️ for learning, building, and sharing.
