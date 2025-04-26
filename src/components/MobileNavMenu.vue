@@ -20,7 +20,7 @@ const toggle = (name: string) => {
 };
 </script>
 <template>
-    <div class="fixed inset-0 z-50 bg-white flex flex-col min-h-screen w-full overflow-y-auto">
+    <div class="fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col min-h-screen w-full overflow-y-auto">
         <div class="flex items-center justify-between px-4 py-3">
             <a class="flex items-center" href="/">
                 <Logo class="w-36 h-8" />
@@ -35,15 +35,19 @@ const toggle = (name: string) => {
             </div>
         </div>
         <div class="flex flex-col px-4 py-2 gap-2">
-            <a href="/login" class="py-3 font-bold  border-b border-[#e5e5e5]">Log in</a>
-            <a href="/signup" class="py-3 font-bold  border-b border-[#e5e5e5]">Sign up</a>
+            <a href="/login"
+                class="py-3 font-bold border-b border-[#e5e5e5] dark:border-gray-700 text-[#21242c] dark:text-gray-100">Log
+                in</a>
+            <a href="/signup"
+                class="py-3 font-bold border-b border-[#e5e5e5] dark:border-gray-700 text-[#21242c] dark:text-gray-100">Sign
+                up</a>
         </div>
-        <div class="flex flex-col divide-y divide-[#e5e5e5]">
+        <div class="flex flex-col divide-y divide-[#e5e5e5] dark:divide-gray-700">
             <div v-for="[sectionName, sectionCourses] in coursesBySection" :key="sectionName">
                 <button
-                    class="w-full flex items-center justify-start gap-x-4 py-[15px] font-bold text-left text-[#21242c] text-base"
-                    :class="{ 'border-b border-[#e5e5e5]': expanded === sectionName }" @click="toggle(sectionName)"
-                    :aria-expanded="expanded === sectionName">
+                    class="w-full flex items-center justify-start gap-x-4 py-[15px] font-bold text-left text-[#21242c] dark:text-gray-100 text-base"
+                    :class="{ 'border-b border-[#e5e5e5] dark:border-gray-700': expanded === sectionName }"
+                    @click="toggle(sectionName)" :aria-expanded="expanded === sectionName">
                     <span class="caret-down" :class="{ 'collapsed': expanded !== sectionName }" />
                     <span class="uppercase text-sm leading-4 tracking-[0.6px]">{{ sectionName }}</span>
                 </button>
@@ -67,9 +71,10 @@ const toggle = (name: string) => {
                 </div>
             </div>
         </div>
-        <div class="px-4 pt-4 pb-2 border-t border-[#e5e5e5] mt-4">
-            <div class="flex items-center justify-between bg-white h-14 mb-2">
-                <a href="/about" class="block py-3 font-bold hover:text-primary hover:underline">About</a>
+        <div class="px-4 pt-4 pb-2 border-t border-[#e5e5e5] dark:border-gray-700 mt-4">
+            <div class="flex items-center justify-between bg-white dark:bg-gray-900 h-14 mb-2">
+                <a href="/about"
+                    class="block py-3 font-bold hover:text-primary hover:underline text-[#21242c] dark:text-gray-100">About</a>
             </div>
             <a href="https://india.khanacademy.org/donate" target="_blank" rel="noopener noreferrer"
                 class="block py-2 font-bold text-white bg-primary text-center rounded button">Donate</a>
@@ -92,7 +97,7 @@ const toggle = (name: string) => {
 }
 
 .caret-down {
-    @apply w-4 h-4 inline-block align-text-bottom ml-4;
+    @apply w-4 h-4 inline-block align-text-bottom ml-4 dark:bg-white;
     mask-size: 100%;
     mask-repeat: no-repeat;
     mask-position: center;

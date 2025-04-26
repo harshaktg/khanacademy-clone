@@ -2,20 +2,20 @@
 </script>
 
 <template>
-    <div class="mt-0 lg:-mt-20 mb-20 mx-0 flex flex-col items-stretch relative">
+    <div class="mt-0 lg:-mt-20 mb-20 mx-0 flex flex-col items-stretch relative text-[#21242c] dark:text-gray-100">
         <svg viewBox="0 0 1366 631" height="631"
             class="h-full top-0 bottom-0 absolute w-full overflow-visible lg:top-[9px] self-center min-h-full hidden lg:block"
             preserveAspectRatio="none" aria-hidden="true">
             <path
                 d="M1366 614.626V42.2878C1216.44 32.481 1071.16 25.6274 902.892 20.0618C647.674 11.6203 291.457 3.37253 0 0.135254V612.111C313.572 631.987 694.403 637.367 1189.78 619.86C1248.63 617.783 1307.48 616.071 1366 614.626Z"
-                fill="#F5F5F5"></path>
+                class="fill-current text-gray-100 dark:text-gray-800" />
         </svg>
         <svg viewBox="0 0 376 621" height="621"
             class="h-full top-0 bottom-0 absolute w-full overflow-visible self-center min-h-full block lg:hidden"
             preserveAspectRatio="none" aria-hidden="true">
             <path
                 d="M0 9.68462V617.774C147.168 622.024 270.083 621.875 376 618.496V0C260.308 0 77.1282 6.45641 0 9.68462Z"
-                fill="#F5F5F5"></path>
+                class="fill-current text-gray-100 dark:text-gray-800" />
         </svg>
         <div
             class="px-12 pt-6 min-h-[621px] flex flex-col relative items-center justify-center w-full md:px-[112px] lg:px-16 lg:min-h-[631px]">

@@ -20,7 +20,7 @@ import Footer from './components/Footer.vue';
       <Navbar />
       <main id="main-content" class="min-h-screen flex-none">
         <div class="flex flex-col relative items-stretch overflow-x-hidden align-baseline">
-          <div class="bg-white relative">
+          <div class="bg-white dark:bg-gray-900 relative">
             <Hero />
             <Courses />
             <WhySection />

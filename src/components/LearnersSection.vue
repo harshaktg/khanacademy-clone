@@ -16,10 +16,11 @@
         <div aria-hidden="true" class="flex flex-col relative items-stretch basis-3 shrink-0"></div>
         <div
             class="max-w-[584px] w-auto basis-auto mx-auto md:w-[548px] md:max-w-none lg:w-auto flex flex-col items-stretch lg:basis-[464px] shrink-0 relative">
-            <span class="block text-sm leading-[18px] tracking-[0.1em] text-[#21242ca3] mx-0 mt-0 mb-[37px]">LEARNERS
+            <span
+                class="block text-sm leading-[18px] tracking-[0.1em] text-[#21242ca3] dark:text-gray-400 mx-0 mt-0 mb-[37px]">LEARNERS
                 AND STUDENTS</span>
             <h2
-                class="my-0 block font-serif text-[30px] font-semibold leading-[35px] -tracking-[0.1px] -indent-[0.35em] md:text-[44px] md:leading-[48px]">
+                class="my-0 block font-serif text-[30px] font-semibold leading-[35px] -tracking-[0.1px] -indent-[0.35em] md:text-[44px] md:leading-[48px] text-[#21242c] dark:text-gray-100">
                 <span class="align-baseline -tracking-[0.1px] ml-2.5">
                     <svg class="overflow-visible absolute left-0 top-0 w-[100px] h-[100px] md:hidden"
                         aria-hidden="true">

@@ -30,10 +30,11 @@ const toggleExpand = () => {
 </script>
 
 <template>
-  <div class="flex flex-col relative items-stretch border-b border-[#21242c52] lg:grid lg:grid-cols-[1fr_1fr]"
+  <div
+    class="flex flex-col relative items-stretch border-b border-[#21242c52] dark:border-gray-700 lg:grid lg:grid-cols-[1fr_1fr]"
     :class="course.class">
     <button :aria-expanded="isExpanded" type="button"
-      class="font-bold grid grid-cols-[auto_1fr_auto] items-center bg-transparent leading-5 overflow-visible py-3 text-left section-header"
+      class="font-bold grid grid-cols-[auto_1fr_auto] items-center bg-transparent leading-5 overflow-visible py-3 text-left section-header text-[#21242c] dark:text-gray-100"
       @click="toggleExpand">
       <img :src="course.icon" width="45" height="45" class="rounded-full mr-3 w-[34px] h-[34px] lg:w-[45px] lg:h-[45px]"
         :alt="course.name" />
@@ -45,7 +46,8 @@ const toggleExpand = () => {
       <ul v-if="course.list.primary.length" class="ml-[46px] lg:ml-[57px] lg:-mt-[5px] lg:mb-3">
         <li v-for="item in course.list.primary" :key="item.name"
           class="hover:text-primary hover:underline hover:cursor-pointer">
-          <a class="block items-center leading-5 item-list" :class="item.class" :href="item.href">
+          <a class="block items-center leading-5 item-list text-[#21242c] dark:text-gray-100" :class="item.class"
+            :href="item.href">
             <span>{{ item.name }}</span>
           </a>
         </li>
@@ -53,7 +55,8 @@ const toggleExpand = () => {
       <ul v-if="course.list.secondary.length" class="ml-[46px] lg:ml-6 mb-2 lg:mb-3 lg:-mt-[5px]">
         <li v-for="item in course.list.secondary" :key="item.name"
           class="hover:text-primary hover:underline hover:cursor-pointer">
-          <a class="block items-center leading-5 item-list" :class="item.class" :href="item.href">
+          <a class="block items-center leading-5 item-list text-[#21242c] dark:text-gray-100" :class="item.class"
+            :href="item.href">
             <span>{{ item.name }}</span>
           </a>
         </li>
@@ -76,6 +79,15 @@ const toggleExpand = () => {
 
 .caret-down.collapsed {
   transform: rotate(0deg);
+}
+
+.caret-down {
+  /* Add dark mode background for caret */
+  background-color: #21242c;
+}
+
+.dark .caret-down {
+  background-color: #e5e7eb;
 }
 
 .item-list {

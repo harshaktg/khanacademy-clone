@@ -5,8 +5,9 @@
     <div class="flex flex-col relative items-stretch mb-20 w-full">
         <div
             class="px-5 lg:px-16 py-0 flex flex-col items-center relative w-full max-w-[1152px] mx-auto mt-[122px] mb-0">
-            <h2 data-scroll-id="why-ka-works" class="mb-2 md:mb-[71px] md:text-[44px] lg:mb-0 lg:leading-[48px] block font-serif text-[30px] font-semibold leading-[35px]
-            -tracking-[0.1px] -mt-10 mx-auto pt-10 px-0 pb-20 text-center max-w-[800px]">Why Khan
+            <h2 data-scroll-id="why-ka-works"
+                class="text-[22px] leading-[30px] text-center lg:text-[32px] lg:leading-[48px] block font-serif font-semibold text-[#21242c] dark:text-gray-100 mb-2 md:mb-[71px] md:text-[44px] lg:mb-0 lg:leading-[48px] -tracking-[0.1px] -mt-10 mx-auto pt-10 px-0 pb-20 text-center max-w-[800px]">
+                Why Khan
                 Academy works</h2>
             <div
                 class="mb-[120px] max-w-[327px] mx-auto flex flex-col items-center relative md:mb-[129px] md:max-w-none md:mx-0 lg:flex-row lg:items-stretch lg:mx-0 lg:mt-0 lg:mb-[120px]">
@@ -49,8 +50,8 @@
                                 class="text-sm leading-[22px] block -tracking-[0.1px] font-sans md:text-base md:leading-[26px]">Created
                                 by experts,
                                 Khan
-                                Academy’s library of trusted, standards-aligned practice and lessons covers math K-12
-                                through early college, grammar, science, history, SAT®, and more. It’s all free for
+                                Academy's library of trusted, standards-aligned practice and lessons covers math K-12
+                                through early college, grammar, science, history, SAT®, and more. It's all free for
                                 learners and teachers.</span>
                         </div>
                     </div>
@@ -73,7 +74,7 @@
                                 Tools to empower teachers</h3><span
                                 class="text-sm leading-[22px] block -tracking-[0.1px] font-sans md:text-base md:leading-[26px]">With
                                 Khan
-                                Academy, teachers can identify gaps in their students’ understanding, tailor
+                                Academy, teachers can identify gaps in their students' understanding, tailor
                                 instruction, and meet the needs of every student.</span>
                         </div>
                     </div>

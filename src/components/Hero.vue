@@ -11,7 +11,7 @@
     </div>
     <div class="absolute w-[calc(100%-40px)] lg:mt-[5px] bottom-0 md:static md:w-full md:self-center">
       <h1
-        class="font-serif text-2xl font-semibold leading-8 mb-[22px] inline bg-white relative bottom-3 md:block md:static md:text-[32px] md:leading-[36px] lg:text-[34px] lg:leading-[36px]">
+        class="font-serif text-2xl font-semibold leading-8 mb-[22px] inline bg-white dark:bg-gray-900 relative bottom-3 md:block md:static md:text-[32px] md:leading-[36px] lg:text-[34px] lg:leading-[36px] text-[#21242c] dark:text-gray-100">
         For every
         student,<br />every classroom.<br /><svg class="overflow-visible absolute left-0 top-0 w-[100px] h-[100px]"
           preserveAspectRatio="xMidYMid meet" aria-hidden="true"
@@ -26,7 +26,7 @@
       </h1>
       <p
         class="mt-0 mx-0 mb-5 text-sm leading-6 w-[85%] max-w-[500px] md:w-full md:max-w-full md:pr-[15%] lg:text-base">
-        <span class="align-text-bottom">We’re a
+        <span class="align-text-bottom">We're a
           nonprofit
           with the mission to provide a free, world-class
           education for anyone, anywhere.</span>

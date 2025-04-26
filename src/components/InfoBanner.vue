@@ -19,7 +19,7 @@ const closeBanner = () => {
               d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
-        <div class="text-sm p-2 flex-1">
+        <div class="text-sm p-2 flex-1 dark:text-[#21242c]">
           We've updated our
           <a href="#" class="text-blue-600 underline">Terms of Service</a>.
           Please review it now.

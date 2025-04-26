@@ -16,7 +16,7 @@
                 CAN MAKE A
                 DIFFERENCE</span>
             <h2
-                class="font-serif block my-0 text-3xl font-semibold leading-[35px] -tracking-[0.1px] md:text-[44px] md:leading-[48px]">
+                class="text-[22px] leading-[30px] text-center lg:text-[32px] lg:leading-[48px] block font-serif font-semibold text-[#21242c] dark:text-gray-100">
                 <svg class="overflow-visible absolute left-0 top-0 w-[100px] h-[100px] md:hidden"
                     preserveAspectRatio="xMidYMid meet" aria-hidden="true"
                     aria-labelledby="_khannotations_LineDrawing_0.40419377328924744_title _khannotations_LineDrawing_0.40419377328924744_desc">
@@ -47,9 +47,9 @@
             </h2>
             <p
                 class="text-sm leading-[22px] sm:text-base sm:leading-[26px] block -tracking-[0.1px] mt-[26px] mx-0 mb-[42px] md:text-lg md:leading-[30px]">
-                Across the globe, 617 million children are missing basic math and reading skills. We’re
+                Across the globe, 617 million children are missing basic math and reading skills. We're
                 a nonprofit delivering the education they need, and we need your help. You can change the course of a
-                child’s life.</p>
+                child's life.</p>
             <div class="hidden w-full md:flex md:w-auto flex-row relative items-stretch">
                 <div class="relative row flex-row items-stretch"><a role="button" rel="noopener noreferrer"
                         target="_blank" href="https://india.khanacademy.org/donate"

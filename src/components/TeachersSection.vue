@@ -14,8 +14,8 @@
             <span
                 class="block text-sm leading-[18px] tracking-[0.1em] text-[#21242ca3] mx-0 mt-0 mb-[37px]">TEACHERS</span>
             <h2
-                class="my-0 block font-serif text-[30px] font-semibold leading-[35px] -tracking-[0.1px] -indent-[0.35em] md:text-[44px] md:leading-[48px]">
-                “I’m finally
+                class="my-0 block font-serif text-[30px] font-semibold leading-[35px] -tracking-[0.1px] -indent-[0.35em] md:text-[44px] md:leading-[48px] text-[#21242c] dark:text-gray-100">
+                “I'm finally
                 able to truly <svg class="overflow-visible absolute left-0 top-0 w-[100px] h-[100px]"
                     preserveAspectRatio="xMidYMid meet" aria-hidden="true"
                     aria-labelledby="_khannotations_LineDrawing_0.1219301002401858_title _khannotations_LineDrawing_0.1219301002401858_desc">
@@ -29,8 +29,8 @@
                         </path>
                     </g>
                 </svg><span style="position: relative;">differentiate</span> my classroom. This has been priceless for
-                my students’ engagement.”</h2><span
-                class="block font-sans text-[11px] leading-[17px] tracking-[0.08em] text-[#21242ca3] mt-[14px]">UDAYA
+                my students' engagement."</h2><span
+                class="block font-sans text-[11px] leading-[17px] tracking-[0.08em] text-[#21242ca3] dark:text-gray-400 mt-[14px]">UDAYA
                 LAKSHMI PALAPALA / Middle school Coordinator
                 / Hyderabad, Telangana</span>
             <p
