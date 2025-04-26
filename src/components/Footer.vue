@@ -70,7 +70,7 @@ const footerConfig = [
     <footer class="py-0 px-5 md:py-3 bg-[#0b2149] text-[#8295BA] relative">
         <div class="p-0 max-w-[1200px] mx-auto md:px-5 relative">
             <div class="flex-col md:flex-row px-0 pt-[32px] pb-[24px] relative flex">
-                <div class="w-auto h-auto text-center pr-0 md:h-full md:w-[40%] md:pr-10 pb-12">
+                <div class="w-auto h-auto text-center md:text-left pr-0 md:h-full md:w-[40%] md:pr-10 pb-12">
                     <p class="my-0 mx-auto block text-xl leading-[24px] max-w-[440px] pb-2 md:m-0">Our mission is to
                         provide a free,
                         world-class education to anyone, anywhere.</p>

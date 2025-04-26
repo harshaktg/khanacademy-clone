@@ -38,7 +38,7 @@ const supporters = [
     {
         alt: "Valhalla Charitable Foundation",
         src: "https://cdn.kastatic.org/images/supporters-logos/valhalla-dark-gray@2x.png",
-        imgClass: "w-[134px] h-[27.5px] md:w-[155px] md:h-[32px] lg:mt-[36px]",
+        imgClass: "w-[134px] h-[27.5px] md:w-[155px] md:h-[32px] lg:mt-[16px]",
     },
 ];
 </script>

@@ -31,7 +31,7 @@
                             class="font-bold inline-block truncate text-[18px] leading-[26px] items-center">Give
                             today</span></a></li>
                 <li><button type="button" role="button" aria-disabled="false"
-                        class="h-10 mt-0 mx-0 mb-2 rounded px-8 bg-white text-primary inline-flex items-center justify-center w-full button-secondary"><span
+                        class="h-10 mt-0 mx-0 mb-2 rounded px-8 bg-white text-primary inline-flex lg:hidden items-center justify-center w-full button-secondary"><span
                             class="font-bold inline-block truncate text-base leading-[24px] items-center ">Back</span></button>
                 </li>
             </ul>
