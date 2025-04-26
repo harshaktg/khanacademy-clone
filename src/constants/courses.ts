@@ -203,6 +203,7 @@ export const courses: Course[] = [
         section: 1,
         name: 'Science (NCERT)',
         icon: 'https://cdn.kastatic.org/genfiles/topic-icons/icons/science_green.png-4ca7bf-128c.png',
+        class: 'border-b-0',
         list: {
             primary: [
                 {
