@@ -12,7 +12,7 @@ export default {
     props: {
         svgClass: {
             type: String,
-            default: 'text-black dark:text-white',
+            default: 'text-black dark:text-white hover:text-primary dark:hover:text-primary cursor-pointer',
         },
         svgAttributes: {
             type: Object,
