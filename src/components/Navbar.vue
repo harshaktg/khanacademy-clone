@@ -1,5 +1,9 @@
 <script setup lang="ts">
+import { ref } from 'vue';
 import Logo from '../ui/Logo.vue';
+import MobileNavMenu from './MobileNavMenu.vue';
+
+const mobileMenuOpen = ref(false);
 </script>
 
 <template>
@@ -57,13 +61,15 @@ import Logo from '../ui/Logo.vue';
           <div class="flex md:hidden items-stretch">
             <button aria-expanded="false" aria-label="Open menu" aria-controls="page-header-responsive-nav-menu"
               data-testid="mobile-header-menu-button" type="button" aria-disabled="false"
-              class="flex items-center text-primary font-bold h-full bg-transparent border-none overflow-visible mr-4">
+              class="flex items-center text-primary font-bold h-full bg-transparent border-none overflow-visible mr-4"
+              @click="mobileMenuOpen = true">
               <span class="inline-block align-text-bottom w-6 h-6 bg-primary hamburger-icon icon" />
             </button>
           </div>
         </div>
       </div>
     </nav>
+    <MobileNavMenu v-if="mobileMenuOpen" @close="mobileMenuOpen = false" />
   </div>
 </template>
 <style scoped>
