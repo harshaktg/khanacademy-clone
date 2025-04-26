@@ -81,6 +81,10 @@ body {
   @apply hover:outline-offset-2 hover:outline hover:outline-2 hover:outline-primary;
 }
 
+.button-secondary {
+  @apply hover:outline-offset-2 hover:outline hover:outline-2 hover:outline-white;
+}
+
 .sr-only {
   clip: rect(0, 0, 0, 0);
   border: 0;
