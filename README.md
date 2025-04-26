@@ -89,12 +89,21 @@ pnpm build
 
 ## 📸 Screenshots
 
-Add screenshots showcasing:
+![image](https://github.com/user-attachments/assets/2b7ddfc5-86be-484f-bb4a-ad1e6244e305)
+Dark mode with Streak XP feature
 
-- Dark mode view
-- XP Tracker and Sharing modal
-- Streaks and XP visual progress
-- Responsive mobile layout
+![image](https://github.com/user-attachments/assets/f6e695f9-8e7a-46d0-b595-a9518962b850)
+Confetti on XP progress
+
+![image](https://github.com/user-attachments/assets/c29aa223-5b3c-426a-9f2c-90b4f1bd4719)
+Mobile responsiveness in light mode
+
+---
+
+## 🎥 Screen Recordings
+
+[Desktop](https://drive.google.com/file/d/105qCJvOu5X01Ihc7fq-AC8tdyZiGztYF/view?usp=drive_link)
+[Mobile](https://drive.google.com/file/d/1qLyXnNSkXlSMjcx88eb7RdCVMrKa0r08/view?usp=sharing)
 
 ---
 
