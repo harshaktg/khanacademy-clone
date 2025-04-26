@@ -5,6 +5,7 @@ import Hero from './components/Hero.vue';
 import Courses from './components/Courses.vue';
 import WhySection from './components/WhySection.vue';
 import TeachersSection from './components/TeachersSection.vue';
+import LearnersSection from './components/LearnersSection.vue';
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import TeachersSection from './components/TeachersSection.vue';
             <Courses />
             <WhySection />
             <TeachersSection />
+            <LearnersSection />
           </div>
         </div>
       </main>
