@@ -103,15 +103,15 @@ const footerConfig = [
                                 <ul>
                                     <li v-for="link in section.links" :key="link.label" class="pr-2 pb-2 min-h-8">
                                         <a :href="link.href" class="text-white items-center hover:underline"
-                                            :target="link.external ? '_blank' : undefined"
-                                            :rel="link.external ? 'noopener noreferrer' : undefined">
+                                            :target="(link as any).external ? '_blank' : undefined"
+                                            :rel="(link as any).external ? 'noopener noreferrer' : undefined">
                                             <template v-if="(link as any).img">
                                                 <img :src="(link as any).img" :alt="(link as any).imgAlt ?? ''"
                                                     class="w-[100px]" />
                                             </template>
                                             <template v-else>
                                                 {{ link.label }}
-                                                <span v-if="link.external" data-testid="external-icon"
+                                                <span v-if="(link as any).external" data-testid="external-icon"
                                                     class="external-icon"></span>
                                             </template>
                                         </a>

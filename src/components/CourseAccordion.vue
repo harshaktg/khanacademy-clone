@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import { useStreakXp } from '../composables/useStreakXp';
 
 interface CourseItem {
   name: string;
@@ -21,12 +22,21 @@ interface Props {
   }
 }
 
-defineProps<Props>();
+const props = defineProps<Props>();
+const course = props.course;
 const isExpanded = ref(true);
+
+const { completedCourses, handleSubjectClick, getSubjectKey } = useStreakXp();
 
 const toggleExpand = () => {
   isExpanded.value = !isExpanded.value;
 };
+
+function handleSubjectCardClick(item: CourseItem) {
+  const key = getSubjectKey(course.name, item.name);
+  if (completedCourses.value.includes(key)) return;
+  handleSubjectClick(key);
+}
 </script>
 
 <template>
@@ -46,18 +56,30 @@ const toggleExpand = () => {
       <ul v-if="course.list.primary.length" class="ml-[46px] lg:ml-[57px] lg:-mt-[5px] lg:mb-3">
         <li v-for="item in course.list.primary" :key="item.name"
           class="hover:text-primary hover:underline hover:cursor-pointer">
-          <a class="block items-center leading-5 item-list text-[#21242c] dark:text-gray-100" :class="item.class"
-            :href="item.href">
+          <a :class="['block items-center leading-5 item-list text-[#21242c] dark:text-gray-100 group relative', item.class, { 'pointer-events-none opacity-60 cursor-not-allowed': completedCourses && completedCourses.includes(getSubjectKey(course.name, item.name)) }]"
+            :href="item.href" data-subject-card @click.prevent="handleSubjectCardClick(item)">
             <span>{{ item.name }}</span>
+            <span v-if="completedCourses && completedCourses.includes(getSubjectKey(course.name, item.name))"
+              class="ml-2 text-green-600 dark:text-green-400 text-xs align-middle">✅</span>
+            <span
+              class="ml-2 px-2 py-0.5 rounded text-xs font-semibold bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-200 opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0 top-1/2 -translate-y-1/2 pointer-events-none select-none shadow-sm">
+              +30 XP
+            </span>
           </a>
         </li>
       </ul>
       <ul v-if="course.list.secondary.length" class="ml-[46px] lg:ml-6 mb-2 lg:mb-3 lg:-mt-[5px]">
         <li v-for="item in course.list.secondary" :key="item.name"
           class="hover:text-primary hover:underline hover:cursor-pointer">
-          <a class="block items-center leading-5 item-list text-[#21242c] dark:text-gray-100" :class="item.class"
-            :href="item.href">
+          <a :class="['block items-center leading-5 item-list text-[#21242c] dark:text-gray-100 group relative', item.class, { 'pointer-events-none opacity-60 cursor-not-allowed': completedCourses && completedCourses.includes(getSubjectKey(course.name, item.name)) }]"
+            :href="item.href" data-subject-card @click.prevent="handleSubjectCardClick(item)">
             <span>{{ item.name }}</span>
+            <span v-if="completedCourses && completedCourses.includes(getSubjectKey(course.name, item.name))"
+              class="ml-2 text-green-600 dark:text-green-400 text-xs align-middle">✅</span>
+            <span
+              class="ml-2 px-2 py-0.5 rounded text-xs font-semibold bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-200 opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0 top-1/2 -translate-y-1/2 pointer-events-none select-none shadow-sm">
+              +30 XP
+            </span>
           </a>
         </li>
       </ul>

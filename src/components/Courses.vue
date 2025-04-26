@@ -23,7 +23,7 @@ const coursesBySection = computed(() => {
 </script>
 
 <template>
-    <nav aria-label="Courses"
+    <nav id="courses-section" aria-label="Courses"
         class="flex flex-col relative mt-5 -mb-5 ml-auto mr-auto items-stretch bg-white dark:bg-gray-900 max-w-[1200px] lg:pt-[5px]">
         <div
             class="flex flex-col relative p-4 mx-4 bg-[#f5f5f5] dark:bg-gray-800 rounded items-stretch lg:grid grid-container lg:py-5 lg:px-20">
