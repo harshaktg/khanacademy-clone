@@ -10,6 +10,7 @@ import StudentTestimonial from './components/StudentTestimonial.vue';
 import ChanceSection from './components/ChanceSection.vue';
 import JoinSection from './components/JoinusSection.vue';
 import KeySupporters from './components/KeySupporters.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -32,6 +33,9 @@ import KeySupporters from './components/KeySupporters.vue';
           </div>
         </div>
       </main>
+      <div id="footer">
+        <Footer />
+      </div>
     </div>
   </div>
 </template>

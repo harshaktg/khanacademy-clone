@@ -46,7 +46,7 @@ const supporters = [
 <template>
     <div class="overflow-hidden flex flex-col relative items-stretch">
         <svg viewBox="0 0 1366 708" height="708"
-            class="h-full top-0 bottom-0 absolute overflow-visible self-center min-h-full w-[1600px] lg:h-auto"
+            class="h-full top-0 bottom-0 absolute overflow-visible self-center min-h-full w-[1600px] lg:w-[110%]"
             preserveAspectRatio="none" aria-hidden="true">
             <path
                 d="M193.85 1.356L-18.72 36.724c-43.745 7.279-77.472 42.499-82.849 86.519l-57.734 472.632C-166.583 655.469-120.079 708-60.041 708H1324c55.23 0 100-44.772 100-100V132.617c0-48.4-34.66-89.852-82.3-98.42l-72.92-13.117a99.987 99.987 0 0 0-17.7-1.58H943L693 0H210.262c-5.499 0-10.988.454-16.412 1.356z"
