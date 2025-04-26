@@ -4,7 +4,7 @@
 <template>
     <div class="mt-0 lg:-mt-20 mb-20 mx-0 flex flex-col items-stretch relative">
         <svg viewBox="0 0 1366 631" height="631"
-            class="h-full top-0 bottom-0 absolute w-full overflow-visible lg:top-[9px] self-center min-h-full hidden lg:block lg:h-auto"
+            class="h-full top-0 bottom-0 absolute w-full overflow-visible lg:top-[9px] self-center min-h-full hidden lg:block"
             preserveAspectRatio="none" aria-hidden="true">
             <path
                 d="M1366 614.626V42.2878C1216.44 32.481 1071.16 25.6274 902.892 20.0618C647.674 11.6203 291.457 3.37253 0 0.135254V612.111C313.572 631.987 694.403 637.367 1189.78 619.86C1248.63 617.783 1307.48 616.071 1366 614.626Z"

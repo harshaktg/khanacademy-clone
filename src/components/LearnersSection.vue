@@ -39,7 +39,7 @@
                 Build a deep, solid understanding in math, science, grammar, history, SAT®, and more.</p>
             <div class="hidden w-full md:flex relative items-stretch flex-row md:w-auto">
                 <div class="flex items-stretch relative flex-row"><a role="button"
-                        class="h-[56px] rounded color-white bg-primary text-white px-4 inline-flex items-center justify-center relative button"
+                        class="h-[56px] rounded color-white bg-primary text-white px-8 inline-flex items-center justify-center relative button"
                         href="/signup"><span
                             class="font-bold inline-block items-center whitespace-nowrap overflow-hidden text-ellipsis text-lg leading-[26px]">Learners,
                             start here</span></a></div>
@@ -59,10 +59,6 @@
     animation-name: learner-animation;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-}
-
-.button {
-    @apply hover:outline-offset-2 hover:outline hover:outline-2 hover:outline-primary;
 }
 
 

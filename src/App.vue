@@ -7,6 +7,7 @@ import WhySection from './components/WhySection.vue';
 import TeachersSection from './components/TeachersSection.vue';
 import LearnersSection from './components/LearnersSection.vue';
 import StudentTestimonial from './components/StudentTestimonial.vue';
+import ChanceSection from './components/ChanceSection.vue';
 </script>
 
 <template>
@@ -23,6 +24,7 @@ import StudentTestimonial from './components/StudentTestimonial.vue';
             <TeachersSection />
             <LearnersSection />
             <StudentTestimonial />
+            <ChanceSection />
           </div>
         </div>
       </main>

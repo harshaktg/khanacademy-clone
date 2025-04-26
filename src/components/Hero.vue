@@ -69,10 +69,6 @@
   animation-fill-mode: forwards;
 }
 
-.button {
-  @apply hover:outline-offset-2 hover:outline hover:outline-2 hover:outline-primary;
-}
-
 @keyframes keyframe_hero {
   100% {
     stroke-dashoffset: 0;
