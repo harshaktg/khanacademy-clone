@@ -9,6 +9,7 @@ import LearnersSection from './components/LearnersSection.vue';
 import StudentTestimonial from './components/StudentTestimonial.vue';
 import ChanceSection from './components/ChanceSection.vue';
 import JoinSection from './components/JoinusSection.vue';
+import KeySupporters from './components/KeySupporters.vue';
 </script>
 
 <template>
@@ -27,6 +28,7 @@ import JoinSection from './components/JoinusSection.vue';
             <StudentTestimonial />
             <ChanceSection />
             <JoinSection />
+            <KeySupporters />
           </div>
         </div>
       </main>
