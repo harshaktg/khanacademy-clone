@@ -6,6 +6,7 @@ import Courses from './components/Courses.vue';
 import WhySection from './components/WhySection.vue';
 import TeachersSection from './components/TeachersSection.vue';
 import LearnersSection from './components/LearnersSection.vue';
+import StudentTestimonial from './components/StudentTestimonial.vue';
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import LearnersSection from './components/LearnersSection.vue';
             <WhySection />
             <TeachersSection />
             <LearnersSection />
+            <StudentTestimonial />
           </div>
         </div>
       </main>
