@@ -221,17 +221,17 @@ const footerConfig = [
 }
 
 .facebook-icon {
-    @apply w-6 h-6;
+    @apply w-6 h-6 hover:bg-primary hover:text-white;
     mask-image: url(https://cdn.kastatic.org/genwebpack/prod/en/images/e5b43b9c0717d989-facebook-logo-fill.svg);
 }
 
 .twitter-icon {
-    @apply w-6 h-6;
+    @apply w-6 h-6 hover:bg-primary hover:text-white;
     mask-image: url(https://cdn.kastatic.org/genwebpack/prod/en/images/f5240dcae2b53974-twitter-logo-fill.svg);
 }
 
 .instagram-icon {
-    @apply w-6 h-6;
+    @apply w-6 h-6 hover:bg-primary hover:text-white;
     mask-image: url(https://cdn.kastatic.org/genwebpack/prod/en/images/62e92f7fbb787def-instagram-logo-fill.svg);
 }
 </style>
